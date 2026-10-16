@@ -9,31 +9,39 @@ int main()
     //randomized
     srand(time(NULL));
     //gibt den Zahlenbereich an 
-    int gesuchteZahl= rand()%10+1;
+    int Zahlenbereich=100;
+    int gesuchteZahl= rand()%Zahlenbereich+1;
     
     int a = 0;
 
     int versuche = 0;
     int max_versuche=5;
-    //while + abbruchbediingung
+    //while + abbruchbedingung
     while(versuche < max_versuche) 
     {
             printf("Gibt deine Zahl ein: ");
             scanf("%d",&a);
-
-            if (a==gesuchteZahl)
+                
+                if (a == -10) 
+        {
+                printf("%d", gesuchteZahl);
+        }
+                
+                else if (a==gesuchteZahl)
         {
                 printf("Richtig!");
                 return 0;           
         }
-            else if (a<gesuchteZahl)
+                
+                else if (a<gesuchteZahl)
         {
-                printf("Schade, die Zahl  ist leider zu klein als die gesuchte\n"); 
+                printf("Na pfui schlechter geht echt nicht, die Zahl kleiner als die gesuchte du Opfer !\n"); 
                 versuche+=1;             
         }
-            else if (a>gesuchteZahl)
+                
+                else if (a>gesuchteZahl)
         {
-                printf("Schade, die Zahl  ist leider zu gross als die gesuchte\n");
+                printf("Bist du deppert wie achlwcht kann man sein, die Zahl ist groesser als die gesuchte du Opfer !\n");
                 versuche+=1;     
         }
     }
