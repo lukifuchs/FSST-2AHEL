@@ -3,7 +3,9 @@
 int main()
 {
     const char secret='x';
-    const char  guess='y';
+    char  guess=
+    printf("Welcher buchstabe koennte es sein ?:");
+    scanf("%c",&guess);
     
     if (guess==secret)
     {
