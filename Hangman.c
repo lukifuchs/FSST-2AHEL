@@ -3,9 +3,15 @@
 int main()
 {
     const char secret='x';
-    char  guess=
-    printf("Welcher buchstabe koennte es sein ?:");
-    scanf("%c",&guess);
+    char  guess;
+
+    printf("Welcher buchstabe koennte es sein :");
+    if (scanf(" %c",&guess) !=1)
+    {
+        printf("Ungueldige Eingabe\n");
+        return 1;
+    }
+    
     
     if (guess==secret)
     {
