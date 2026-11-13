@@ -1,0 +1,73 @@
+Kundenauftrag: Berechnung der Parkgebühren für einen kleinen Parkplatz
+Ausgangssituation
+Ich betreibe einen kleinen privaten Parkplatz in der Nähe eines Einkaufszentrums. Viele Kunden nutzen meinen Parkplatz für kurze Einkäufe oder längere Besuche.
+
+Bisher berechne ich die Parkgebühren immer selbst. Das kostet Zeit und führt gelegentlich zu Fehlern. Deshalb benötige ich ein kleines Programm, das mir die Gebühren zuverlässig berechnet.
+
+Dein Anliegen
+Ich möchte ein einfaches Programm, mit dem ich für jedes Fahrzeug die Parkkosten ermitteln kann.
+
+Dabei sollen unterschiedliche Parkzeiten berücksichtigt werden. Außerdem möchte ich direkt sehen, ob ein Kunde einen bestimmten Betrag bezahlen muss oder kostenlos parken darf.
+
+Gewünschte Funktionen
+Das Programm soll folgende Möglichkeiten bieten:
+
+Die Parkdauer eines Fahrzeugs entgegennehmen.
+
+Die Parkgebühren anhand der Parkdauer berechnen.
+
+Die ersten 15 Minuten kostenlos anbieten.
+
+Für jede angefangene weitere Stunde 2 € berechnen.
+
+Die maximale Tagesgebühr auf 12 € begrenzen.
+
+Den endgültigen Betrag übersichtlich anzeigen.
+
+Bei ungültigen Eingaben eine verständliche Fehlermeldung ausgeben.
+
+Bedienung
+Wenn ich das Programm starte, möchte ich nach der Parkdauer in Minuten gefragt werden.
+
+Anschließend soll das Programm die Parkgebühren berechnen und folgende Informationen anzeigen:
+
+Eingegebene Parkdauer.
+
+Ob das Parken kostenlos ist.
+
+Zu zahlender Gesamtbetrag.
+
+Die Parkdauer darf nicht negativ sein. Bei einer ungültigen Eingabe soll das Programm darauf hinweisen.
+
+Beispiel
+Ein Kunde hat sein Fahrzeug für 135 Minuten auf dem Parkplatz abgestellt.
+
+Das Programm soll folgende Informationen anzeigen:
+
+Parkgebührenabrechnung
+
+Parkdauer
+
+135 Minuten
+
+Kostenfreie Zeit
+
+15 Minuten
+
+Kostenpflichtige Zeit
+
+120 Minuten
+
+Zu bezahlen
+
+4,00 €
+Besondere Wünsche
+Die Gebühren sollen immer auf volle Eurobeträge berechnet werden.
+
+Auch sehr lange Parkzeiten sollen korrekt berücksichtigt werden.
+
+Das Programm soll nach einer Berechnung erneut verwendet werden können, damit ich mehrere Kunden hintereinander abrechnen kann.
+
+Die Bedienung soll möglichst einfach und verständlich sein.
+
+Vielen Dank! Ich freue mich auf eine zuverlässige und unkomplizierte Lösung für meinen Parkplatz.
